@@ -1,0 +1,72 @@
+body {
+    font-family: 'Segoe UI', sans-serif;
+    background-color: #f5f7fa;
+    margin: 0;
+    padding: 40px;
+    color: #333;
+}
+
+h1 {
+    color: #1e90ff;
+}
+
+form {
+    margin-top: 20px;
+}
+
+input[type="text"] {
+    padding: 10px;
+    width: 60%;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #1e90ff;
+    color: white;
+    font-size: 16px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    margin-left: 10px;
+}
+
+button:hover {
+    background-color: #0f76d1;
+}
+
+.result {
+    margin-top: 30px;
+    padding: 20px;
+    background-color: #fff;
+    border-left: 5px solid #1e90ff;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+}
+/* Default light mode */
+body {
+  background-color: #f8f9fa;
+  color: #212529;
+}
+.card {
+  background-color: #ffffff;
+  color: #212529;
+}
+
+/* Dark mode styles */
+body.dark-mode {
+  background-color: #121212;
+  color: #f1f1f1;
+}
+body.dark-mode .card {
+  background-color: #1e1e1e;
+  color: #f1f1f1;
+}
+body.dark-mode .form-control,
+body.dark-mode .btn,
+body.dark-mode .form-check-label {
+  background-color: #333;
+  color: #f1f1f1;
+  border-color: #555;
+}
