@@ -4,7 +4,15 @@ import whois
 import datetime
 import requests
 
-SUSPICIOUS_KEYWORDS = ['login', 'verify', 'secure', 'account', 'banking', 'update', 'free', 'paypal']
+SUSPICIOUS_KEYWORDS = [
+    "login", "signin", "verify", "account", "secure", "update", "confirm",
+    "bank", "paypal", "payment", "invoice", "security", "ebay", "amazon",
+    "webmail", "support", "unlock", "reset", "password", "alert", "important",
+    "suspended", "recovery", "dropbox", "onedrive", "drive", "office365",
+    "appleid", "billing", "subscription", "refund", "claim", "bonus", "prize",
+    "free", "gift", "offer", "urgent", "limited", "login-now", "validate"
+]
+
 
 SHORTENERS = ['bit.ly', 'tinyurl.com', 'goo.gl', 'ow.ly', 't.co', 'is.gd', 'buff.ly', 'adf.ly']
 
